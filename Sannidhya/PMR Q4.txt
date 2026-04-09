@@ -1,0 +1,9 @@
+Presentation layer:
+Itis te topmost layer int the architecture. This layer
+ provides a UI that allows the users to interact and
+communicate with the applications.
+
+Business layer:
+It is the middle layer in architecture. This layer
+ helps to perform logical decisions, Calculations,
+ data updates, and searches

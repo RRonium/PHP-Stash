@@ -1,0 +1,9 @@
+<?php
+	//$d=cal_days_in_month(CAL_GREGORIAN,4,2019);
+	//$d=cal_days_in_month(CAL_JULIAN,5,2019);
+	$d=cal_days_in_month(CAL_JEWISH,5,2019);
+//$d=cal_days_in_month(CAL_FRENCH,4,2019);
+$calinfo=cal_info(0);
+	print($d);
+	print_r($calinfo);
+?>
