@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<title>
+		Login
+	</title>
+</head>
+<body bgcolor="red">
+<?php
+include('welcome.php');
+?>
+<br>
+<h1>Login</h1>
+<form action="home.html">
+<br>
+<label>Username:</label>
+<input type="text" name="uname"/>
+<br>
+<label>Password:</label>
+<input type="password" name="pword"/>
+<br>
+<input type="submit" action="Home.html"/>
+<input type="reset" action="Login.html"/>
+</body>
+</html>
